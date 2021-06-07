@@ -2,6 +2,7 @@
 
 
 // query_posts(array('post_type' => 'page'));
+//
 
     
 if(have_posts()){
