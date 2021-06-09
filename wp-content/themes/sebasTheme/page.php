@@ -1,5 +1,7 @@
 <?php
 
+get_header();
+
 echo "<h2>That's static page</h2>";
     
 if(have_posts()){
@@ -15,4 +17,6 @@ if(have_posts()){
 { 
     echo "keine Post";
 }
+
+get_footer();
 
