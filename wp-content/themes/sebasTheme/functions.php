@@ -20,7 +20,7 @@ add_action( 'setup_theme', 'add_my_widget' );
 function add_my_menue() { 
     register_nav_menus(
         array(
-            'main-nav'   => 'Main Navigation',
+            'main-nav'   => 'Meine Navigation',
             'footer-nav' => 'Footer Navigation'
         )
     );
